@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script type="text/javascript">
+    
+
+    $(document).ready(function(){
+        $("#con1").load("xml/edmans.xml");
+    
+});
+$(document).ready(function(){
+   
+        $("#con2").load("xml/felux.xml");
+   
+});
+$(document).ready(function(){
+   
+        $("#con3").load("xml/pro.xml");
+ 
+});
+$(document).ready(function(){
+    
+        $("#con4").load("xml/javis.xml");
+   
+});
+$(document).ready(function(){
+    
+        $("#con5").load("xml/an.xml");
+  
+});
+</script>
+    </script>
+    <style type="text/css">
+    #con1{
+      position: relative;
+     
+     
+      margin-bottom: 40%;
+      font-size: 100%;
+      animation: fadein 5s ease forwards;
+
+    }
+    #con2{
+      position: relative;
+      
+      
+      margin-bottom: 30%;
+      font-size: 100%;
+      animation: fadein 5s ease forwards;
+    }
+    #con3{
+      position: relative;
+      
+      
+      margin-bottom: 30%;
+      font-size: 100%;
+      animation: fadein 5s ease forwards;
+    }
+    #con4{
+      position: relative;
+      
+      
+      margin-bottom: 30%;
+      font-size: 100%;
+      animation: fadein 5s ease forwards;
+    }
+    #con5{
+      position: relative;
+      
+      margin-bottom: 30%;
+      font-size: 100%;
+      animation: fadein 5s ease forwards;
+    }
+    
+
+
+    a{
+    position: relative;
+      margin-bottom: 50%;
+    padding: 1px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Itim', cursive;
+    margin-left: 20px;
+
+  }
+    a:hover,a:focus {
+  border-bottom: 2px solid:black;
+  transition: 4s color: #6666ff;
+  outline:none;
+  text-decoration:none;
+
+  
+}
+      .carousel-inner{
+          position: fixed;
+          margin-top:2%;
+          width: 100%;
+          height: 100%;
+      }
+      #prev{
+        position: absolute;
+        margin-top:20%;
+        margin-left: 1%;
+      }
+      #next{
+        position: absolute;
+        margin-top:20%;
+        margin-left: 97%
+      }
+      #slide{
+        opacity: 0.7;
+      }
+
+    </style>
+  </head>
+
+  <body>
+  
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+   
+    <div class="item active">
+      <div class="carousel-caption">
+          <div id="con1">
+          </div>
+          
+        
+      </div>
+      <img id="slide" src="img/Anzat.jpg" alt="...">
+    </div>
+
+
+
+
+
+
+
+    <div class="item">
+      <div class="carousel-caption">
+          <div id="con2">
+          </div>
+          
+        
+      </div>
+      <img id="slide" src="img/Edmans.jpg" alt="...">
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="item">
+      <div class="carousel-caption">
+          <div id="con3">
+          </div>
+          
+        
+      </div>
+      <img id="slide" src="img/Javis.jpg" alt="...">
+    </div>
+
+
+
+
+
+
+
+    <div class="item">
+      
+      <div class="carousel-caption">
+        <div id="con4">
+        </div>
+          
+        
+      </div>
+       <img id="slide" src="img/Proseidus.jpg" alt="...">
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="item">
+      
+      <div class="carousel-caption">
+        <div id="con5">
+        </div>
+          
+        
+      </div>
+      <img width="120%" id="slide" src="img/Felusia.jpg" alt="...">
+    </div>
+      
+  </div>
+
+  <!-- Controls -->
+  <button id="prev" type="button" class="btn btn-default" href="#carousel-example-generic" data-slide="prev"><</button>
+  <button id="next" type="button" class="btn btn-default" href="#carousel-example-generic" data-slide="next">></button>
+  
+  
+
+</div>
+   
+  </body>
+</html>
